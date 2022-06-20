@@ -1,0 +1,54 @@
+========================================================================
+Autor: ##### #####                                    Krakow, 22.03.2022
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog Zad1 zawiera 5 podpunktów z cwiczenia pierwszego:
+---------------------------------------------------------
+a.  Program wypisujacy identyfikatory UID, GID, PID, PPID
+    i PGID dla danego procesu
+
+b.  Program wywolujacy funkcje fork trzy razy i wypisuje
+    identyfikatory dla procesu macierzystego oraz wszystkich
+    procesow potomnych
+
+c.  Program sprawdzajacy czy proces macierzysty poczekal
+    na wszystkie procesy potomne uzywajac tylko funkcji
+    sleep
+
+d.  Program grupujacy procesy pokoleniami od najstarszego
+    do najmlodszego
+
+e.  Program ustawiajacy funkcje setpgid, sprawiajacej, ze
+    kazdy proces potomny staje sie liderem swojej wlasnej
+    grupy procesow
+
+* Jak uruchamiac programy:
+==========================
+
+Katalog zawiera program Makefile do kompilacji, linkowania
+i uruchamiania powyzszych programow, a takze czyszczenia katalogu
+i jego archiwizacji
+
+-> Aby uruchomic 1-wszy program, nalezy wykonac komende:
+    make runA
+
+-> Aby uruchomic 2-gi program, nalezy wykonac komende:
+    make runB
+
+-> Aby uruchomic 3-ci program, nalezy wykonac komende:
+    make runC
+
+-> Aby uruchomic 4-ty program, nalezy wykonac komende:
+    make runD
+
+-> Aby uruchomic 5-ty program, nalezy wykonac komende:
+    make runE
+
+-> Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac:
+    make clan
+
+-> W celu archiwizacji oraz kompresji katalogu nalezy wykonac:
+    make tar
