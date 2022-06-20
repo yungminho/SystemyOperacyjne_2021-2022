@@ -22,9 +22,7 @@ int main(){
                 PGID = getpgid(PID);
 
                 printf("Child Process:\nPID:   %d\nPPID:  %d\nPGID:  %d\n", PID, PPID, PGID);
-
-
-
+                
                 break;
             default:
                 /* Parent Process */
