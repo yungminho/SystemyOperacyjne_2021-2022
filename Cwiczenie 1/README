@@ -5,7 +5,7 @@ Autor: ##### #####                                    Krakow, 22.03.2022
 * Zawartosc:
 ============
 
-Katalog Zad1 zawiera 5 podpunktów z cwiczenia pierwszego:
+Katalog 'Cwiczenie 1' zawiera 5 podpunktów z cwiczenia pierwszego:
 ---------------------------------------------------------
 a.  Program wypisujacy identyfikatory UID, GID, PID, PPID
     i PGID dla danego procesu
