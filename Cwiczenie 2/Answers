@@ -1,0 +1,3 @@
+========================================================================
+ Powstanie n procesow potomnych, poniewaz funkcja exec przelacza proces
+ na wykonanie programu printProcess.c, w zwiazku z czym przerywa pętle.
